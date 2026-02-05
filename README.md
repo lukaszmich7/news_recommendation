@@ -22,11 +22,10 @@ Projekt implementuje **Hybrydowy System Rekomendacyjny**, który łączy:
 ### Instalacja
 ```bash
 pip install torch torch_geometric pandas scikit-learn matplotlib seaborn tqdm
-
+```
 ## 📂 Dane
 
-The project uses the MIND-Small dataset (Microsoft News Dataset).
-Due to size constraints, the dataset and processed graph files are stored externally.
+Użyte dane to zbiór MIND-Small (Microsoft News Dataset).
 
 1.  **Pobranie danych**: https://msnews.github.io/
 2.  **Rozpakowanie** do głównego katalogu w repozytorium
